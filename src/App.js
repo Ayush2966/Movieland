@@ -4,14 +4,7 @@ import SearchIcon from './search.svg';
 import MoviesCard from './MoviesCard';
 //a5393007
 const API_URL = 'http://www.omdbapi.com?apikey=a5393007'
-const movie1 = {
-    "Title": 'Avengers: Endgame',
-    "Year": '2019',
-    "Poster": 'https://cdn.vox-cdn.com/thumbor/FxmYerkVgD8qlkWHluFGiHEn69Y=/0x0:1022x409/920x0/filters:focal(0x0:1022x409):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/2400952/avengers-infinity-war_1024.0.jpg',
-    "imdbID": "tt4154796",
-    "Type": "movie",
 
-}
 
 const App = () => {
     const[movies, setMovies]=useState([]);
